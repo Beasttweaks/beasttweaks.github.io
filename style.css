@@ -117,6 +117,7 @@ body {
   width: 99vw;
   font-size: 90px;
   font-family: Brightness, sans-serif;
+  text-shadow: 7px 9px 5px rgba(0, 0, 0, 0.6);
 }
 
 /* Description */
@@ -290,7 +291,7 @@ html {
 @media screen and (max-width: 1700px) {
   .heading {
     position: absolute;
-    top: 160px;
+    top: 290px;
   }
 
   contact me .contact_description_container span {
@@ -351,6 +352,9 @@ html {
     position: absolute;
     top: 160px;
   }
+  .heading span {
+    font-size: 65px;
+  }
 
   /* contact me */
 
@@ -405,7 +409,7 @@ html {
   }
 }
 
-/* responsiveness */
+/* responsiveness normal phones */
 
 @media screen and (max-width: 800px) {
   .main_image img {
@@ -414,6 +418,9 @@ html {
   }
   body {
     overflow-x: hidden;
+  }
+  .socialbar {
+    display: none;
   }
 
   /* Description */
@@ -444,7 +451,7 @@ html {
     color: white;
     text-align: center;
     position: absolute;
-    top: 18vh;
+    top: 24vh;
     width: 100vw;
     font-size: 39px;
     font-family: Brightness, sans-serif;
@@ -452,6 +459,9 @@ html {
     text-align: center;
     font-size: 39px;
     font-family: Brightness, sans-serif;
+  }
+  .heading span {
+    font-size: 40px;
   }
 
   /* Fps And Delay */
@@ -566,7 +576,9 @@ html {
   body {
     overflow-x: hidden;
   }
-
+  .socialbar {
+    display: none;
+  }
   /* navbar */
 
   .navbar {
@@ -617,7 +629,7 @@ html {
     color: white;
     text-align: center;
     position: absolute;
-    top: 18vh;
+    top: 25vh;
     width: 100vw;
     font-size: 39px;
     font-family: Brightness, sans-serif;
