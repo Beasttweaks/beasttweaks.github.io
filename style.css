@@ -25,7 +25,7 @@ body {
   overflow-x: hidden;
 }
 .main_image img {
-  margin-top: -18px;
+  margin-top: -36px;
   width: 99vw;
 }
 
@@ -73,15 +73,20 @@ body {
   margin: 0;
   padding: 0;
 }
-#home_jump {
+#home {
   position: absolute;
   top: 0;
   color: #261b21;
 }
-#contact_jump {
+#about {
   color: #261b21;
   position: absolute;
   top: 189vh;
+}
+#contact {
+  color: #261b21;
+  position: absolute;
+  top: 300vh;
 }
 
 /* Social Bar */
@@ -172,6 +177,8 @@ body {
 
 #contact_me {
   display: flex;
+  position: relative;
+  top: 22vh;
 }
 .contact_description_container {
   width: 49vw;
@@ -217,7 +224,7 @@ body {
 
 /* About */
 
-#about {
+#about_me {
   position: relative;
   top: 85px;
   display: flex;
@@ -258,7 +265,7 @@ footer {
   font-size: 20px;
   color: #a29e9c;
   position: relative;
-  top: 82px;
+  top: 207px;
 }
 
 /* Animation */
@@ -510,7 +517,7 @@ html {
     margin-left: 24vw;
     max-width: 100vw;
   }
-  #about {
+  #about_me {
     position: relative;
     top: 85px;
     display: flex;
@@ -622,7 +629,7 @@ html {
     color: white;
     text-align: center;
     position: absolute;
-    top: 25vh;
+    top: 20vh;
     width: 100vw;
     font-size: 39px;
     font-family: Brightness, sans-serif;
@@ -642,7 +649,7 @@ html {
     width: 100vw;
   }
   .fpsdelay {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   /* Contact Me */
@@ -673,7 +680,7 @@ html {
     position: relative;
     top: 0vw;
     color: white;
-    font-size: 18px;
+    font-size: 17px;
     letter-spacing: 0.04em;
     text-align: center;
     margin: 0;
@@ -685,7 +692,7 @@ html {
     margin-left: 24vw;
     max-width: 100vw;
   }
-  #about {
+  #about_me {
     position: relative;
     top: 85px;
     display: flex;
@@ -706,7 +713,7 @@ html {
   }
   .about_description p {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 0.04em;
     text-align: center;
     margin-bottom: 85px;
