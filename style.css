@@ -28,6 +28,13 @@ body {
   margin-top: -36px;
   width: 99vw;
 }
+body {
+  animation-name: Fade-in-and-out-animation;
+  animation-duration: 1s;
+}
+html {
+  scroll-behavior: smooth;
+}
 
 /* Header */
 
@@ -58,6 +65,11 @@ body {
   color: #a29c9c;
   font-family: "Roboto Condensed", sans-serif;
   margin-right: 21px;
+}
+.navbar ul li a:hover{
+  color: white;
+  animation-name: hover-color-animation;
+  animation-duration: 0.5s;
 }
 .navbar {
   position: fixed;
@@ -268,7 +280,7 @@ footer {
   top: 207px;
 }
 
-/* Animation */
+/* Animations */
 
 @keyframes Fade-in-and-out-animation {
   from {
@@ -278,12 +290,13 @@ footer {
     opacity: 1;
   }
 }
-body {
-  animation-name: Fade-in-and-out-animation;
-  animation-duration: 1s;
-}
-html {
-  scroll-behavior: smooth;
+@keyframes hover-color-animation {
+  from {
+    opacity: 50%;
+  }
+  to {
+    opacity: 100%;
+  }
 }
 
 /* responsiveness laptops */
@@ -294,7 +307,7 @@ html {
     top: 290px;
   }
 
-  contact me .contact_description_container span {
+  .contact_description_container span {
     color: white;
     font-size: 60px;
     font-family: Brightness;
