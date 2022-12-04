@@ -358,6 +358,29 @@ footer {
   }
 }
 
+/* responsiveness small laptops */
+
+@media screen and (max-width: 1536px) {
+  .heading {
+    position: absolute;
+    top: 228px;
+  }
+  footer {
+    text-align: center;
+    letter-spacing: 0.05em;
+    line-height: 186px;
+    font-size: 20px;
+    color: #a29e9c;
+    position: relative;
+    top: 162px;
+  }
+  #about {
+    color: #141414;
+    position: absolute;
+    top: 232vh;
+  }
+}
+
 /* responsiveness tablets */
 
 @media screen and (max-width: 1200px) {
