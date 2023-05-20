@@ -9,11 +9,8 @@
   font-family: DroidSerif;
   src: url(fonts/Droid\ Serif\ W01\ Regular.ttf) format(truetype);
 }
-@font-face {
-  font-family: Roboto;
-  src: url(/fonts/Roboto-Regular.ttf) format(truetype);
-}
-@import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&family=Roboto+Condensed&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@300;400&display=swap');
 * {
   margin: 0;
   padding: 0;
